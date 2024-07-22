@@ -1,0 +1,85 @@
+html,
+body {
+  overflow: hidden;
+  /* Menghilangkan scroll pada halaman utama */
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  background-color: #BE2EDD;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0;
+  margin-left: 0px;
+}
+
+.text-logo h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.text-logo p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.nav {
+  font-size: 17px;
+}
+
+.nav-item {
+  padding-top: 15px;
+}
+
+.nav-link img {
+  width: 20px;
+  height: 35px;
+  margin-right: 15px;
+  margin-left: 4px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  position: relative;
+  right: 5px;
+  bottom: 30px;
+}
+
+.nav-link:hover {
+  background-color: #d9d9d9;
+  
+}
+
+.box1 {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #b95ac8;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}

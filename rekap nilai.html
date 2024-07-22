@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rekap Nilai Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+		<!-- My CSS -->
+		<link rel="stylesheet" href="css/rekap.css" />
+	</head>
+
+	<body class="vh-100">
+		<div class="align-content-center d-flex p-3 pb-4 justify-content-between" style="background-color: #9224aa">
+			<div class="align-content-center d-flex">
+				<img src="img/logo_amikom_full_color.png" alt="" width="100px" style="margin-right: 10px" />
+				<h5 class="text-white pt-2" style="font-weight: bold">
+					Universitas <br /><span style="color: black">AMIKOM</span><br />
+					Yogyakarta
+				</h5>
+			</div>
+			<h3 class="text-white">23.01.4986</h3>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="col-lg-2 vh-100 sidebar">
+					<div class="d-flex align-items-center p-3 mb-4">
+						<img src="img/photo_profile.png" alt="logo" class="logo mr-3 bg-white rounded-circle" />
+						<div class="text-white text-logo">
+							<h2>Stefangga Aglin Paramudya</h2>
+							<p>23.01.4986</p>
+						</div>
+					</div>
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="dashboard.html"> <img src="img/list.svg" alt="" />Dashboard </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="data kehadiran.html"> <img src="img/check-circle.svg" alt="" />Data Kehadiran </a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="tambah data.html"> <img src="img/plus.svg" alt="" />Tambah Data </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="rekap nilai.html"> <img src="img/clipboard-data.svg" alt="" />Rekap Nilai </a>
+						</li>
+					</ul>
+					<ul class="nav flex-column">
+						<li class="nav-item out">
+							<a class="nav-link active" aria-current="page" href="login.html"> <img src="img/logout.svg" alt="" />Logout </a>
+						</li>
+					</ul>
+				</nav>
+
+				<main class="container col-md-10 ms-sm-auto col-lg-10 px-md-4 p-4">
+					<div class="box1 border">
+						<h2>Semester - Genap TA. 2023/2024</h2>
+					</div>
+					<h1 class="text-black mt-5 mb-5">Rekap Nilai</h1>
+					<table>
+						<thead>
+							<tr>
+								<th>Nama</th>
+								<th>NIM</th>
+								<th>Mata Kuliah</th>
+								<th>Sifat</th>
+								<th>SKS</th>
+								<th>Nilai</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Stefangga Aglin  Paramudya</td>
+								<td>23.01.4986</td>
+								<td>Web Development</td>
+								<td>Konsentrasi</td>
+								<td>4</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Stefangga Aglin  Paramudya</td>
+								<td>23.01.4986</td>
+								<td>Keamanan Data dan Informasi</td>
+								<td>Wajib</td>
+								<td>4</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Stefangga Aglin  Paramudya</td>
+								<td>23.01.4986</td>
+								<td>Matematika Diskrit</td>
+								<td>Wajib</td>
+								<td>2</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Stefangga Aglin  Paramudya</td>
+								<td>23.01.4986</td>
+								<td>Statistika</td>
+								<td>Wajib</td>
+								<td>2</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Stefangga Aglin  Paramudya</td>
+								<td>23.01.4986</td>
+								<td>Bahasa Inggris</td>
+								<td>Wajib</td>
+								<td>2</td>
+								<td>B</td>
+							</tr>
+
+							<!-- Menambahkan baris lainnya sesuai kebutuhan -->
+						</tbody>
+					</table>
+
+					<div class="IPK text-ipk" style="text-align: center; margin-top: 50px">
+						<h3>Indek Prestasi Komulatif:</h3>
+						<h4>3.50</h4>
+					</div>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>
